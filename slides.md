@@ -45,7 +45,7 @@ hint: true
   dengan sepenuh hati, sejak <span class="font-semibold text-gold-200">12 tahun</span> lalu.
 </p>
 
-<p v-reveal="3" class="eyebrow mt-1 text-white/40">
+<p v-reveal="3" class="eyebrow mt-1 text-white/75">
   Disusun untuk calon mitra agen di seluruh Indonesia
 </p>
 

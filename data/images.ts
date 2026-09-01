@@ -23,18 +23,20 @@ export const photos = {
 } as const
 
 /**
- * Institution marks, hot-linked from their public sources. Wikimedia serves
- * these with permissive CORS and stable paths; the two that have no public
- * asset fall back to a typographic tile (see `CredentialBadge` / `PartnerCard`).
+ * Institution marks. The supervising bodies (`public/images/diawasi`) and the
+ * partner institutions (`public/images/lembaga`) are served locally; the two
+ * without a local asset are hot-linked, and anything with no asset at all falls
+ * back to a typographic tile (see `CredentialBadge` / `PartnerCard`).
  */
 export const logos = {
   kan: 'https://upload.wikimedia.org/wikipedia/commons/e/e9/Logo_KAN.png',
-  asita: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/LOGO_ASITA.jpg/500px-LOGO_ASITA.jpg',
-  kemenag: 'https://upload.wikimedia.org/wikipedia/commons/8/82/Seal_of_the_Ministry_of_Religious_Affairs_of_the_Republic_of_Indonesia.svg',
-  bankIndonesia: 'https://upload.wikimedia.org/wikipedia/commons/3/39/BI_Logo.png',
-  indosat: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Indosat_Ooredoo_Hutchison.svg',
-  elnusa: 'https://upload.wikimedia.org/wikipedia/id/d/d1/Logo_Elnusa.svg',
-  bpkp: 'https://upload.wikimedia.org/wikipedia/commons/1/17/Logo_BPKP_%282020%29.png',
+  asita: '/images/diawasi/asita.png',
+  kesthuri: '/images/diawasi/kesthuri.png',
+  kemenag: '/images/diawasi/5-pasti-umroh.png',
+  bankIndonesia: '/images/lembaga/mmbi.png',
+  indosat: '/images/lembaga/ski-indosat.webp',
+  elnusa: '/images/lembaga/ybh-elnusa.png',
+  bpkp: '/images/lembaga/bpkb.jpg',
   alKahfi: 'https://pesantrenalkahfi.com/wp-content/uploads/2023/08/LOGO-WEB-AL-KAHFI-2.webp',
 } as const
 

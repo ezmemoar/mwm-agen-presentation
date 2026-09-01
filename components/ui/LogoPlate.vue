@@ -10,6 +10,7 @@ const props = defineProps<{
   /** Set in the monogram fallback, and read by the deck as a label. */
   mark: string
   variant?: SlideVariant
+  imageClass: string
 }>()
 
 const { plate } = useTone(toRef(props, 'variant'))
@@ -26,6 +27,7 @@ const broken = ref(false)
       :src="logo"
       :alt="alt"
       class="logo-plate__img"
+      :class="imageClass"
       loading="eager"
       @error="broken = true"
     >

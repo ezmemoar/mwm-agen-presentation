@@ -1,9 +1,7 @@
-import { photos } from './images'
-
 export interface BentoItem {
   type: 'photo' | 'note'
-  /** Tailwind grid-span classes, e.g. `col-span-2 row-span-2`. */
-  span: string
+  /** `feature` is the tall image on the left; `square` are the four stacked tiles. */
+  tile: 'feature' | 'square'
   /** Cut the tile to the deck's arch. Reserved for the tall portrait tiles. */
   arch?: boolean
   src?: string
@@ -16,46 +14,33 @@ export interface BentoItem {
 export const galleryItems: BentoItem[] = [
   {
     type: 'photo',
-    span: 'col-span-2 row-span-2',
-    src: photos.pilgrimsWide,
+    tile: 'feature',
+    src: '/images/dokumentasi/dokumentasi-1.png',
     alt: 'Jemaah di Masjidil Haram, Makkah',
     caption: 'Jemaah di pelataran Masjidil Haram',
   },
   {
     type: 'photo',
-    span: 'col-span-1 row-span-2',
-    arch: true,
-    src: photos.nabawiThumb,
+    tile: 'square',
+    src: '/images/dokumentasi/dokumentasi-2.jpg',
     alt: 'Masjid Nabawi, Madinah',
   },
   {
     type: 'photo',
-    span: 'col-span-1 row-span-1',
-    src: photos.nabawiDome,
+    tile: 'square',
+    src: '/images/dokumentasi/dokumentasi-3.png',
     alt: 'Kubah hijau Masjid Nabawi, Madinah',
   },
   {
-    type: 'note',
-    span: 'col-span-1 row-span-1',
-    headline: '20.000+',
-    body: 'momen ibadah terekam bersama jemaah',
-  },
-  {
     type: 'photo',
-    span: 'col-span-2 row-span-1',
-    src: photos.haramWide,
+    tile: 'square',
+    src: '/images/dokumentasi/dokumentasi-4.jpg',
     alt: 'Suasana Masjidil Haram, Makkah',
   },
   {
     type: 'photo',
-    span: 'col-span-1 row-span-1',
-    src: photos.madinah,
+    tile: 'square',
+    src: '/images/dokumentasi/dokumentasi-5.jpg',
     alt: 'Madinah, Arab Saudi',
-  },
-  {
-    type: 'photo',
-    span: 'col-span-1 row-span-1',
-    src: photos.kaabaThumb,
-    alt: 'Kakbah, Masjidil Haram',
   },
 ]

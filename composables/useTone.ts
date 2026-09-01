@@ -16,9 +16,9 @@ export function useTone(override?: Ref<SlideVariant | undefined>) {
     variant,
     light,
     /** Body copy that sits below the headline. */
-    muted: computed(() => (light.value ? 'text-ink-600' : 'text-white/70')),
+    muted: computed(() => (light.value ? 'text-ink-600' : 'text-white/85')),
     /** Footnotes and disclaimers. */
-    subtle: computed(() => (light.value ? 'text-ink-600/70' : 'text-white/45')),
+    subtle: computed(() => (light.value ? 'text-ink-600' : 'text-white/70')),
     card: computed(() => (light.value ? 'card card--light' : 'card card--dark')),
     hairline: computed(() => (light.value ? 'hairline-light' : 'hairline-dark')),
     chipOutline: computed(() => (light.value ? 'chip--outline-light' : 'chip--outline-dark')),

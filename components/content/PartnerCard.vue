@@ -12,6 +12,7 @@ const { accent } = useTone(toRef(props, 'variant'))
   <div class="flex flex-col">
     <LogoPlate
       class="h-[6.6rem] w-full"
+      :image-class="partner.class"
       :logo="partner.logo"
       :alt="`Logo ${partner.org}`"
       :mark="partner.mark"

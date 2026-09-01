@@ -30,6 +30,7 @@ export interface Partner {
   name: string
   org: string
   logo?: string
+  class?: string
 }
 
 export interface Contact {
@@ -53,7 +54,7 @@ export const stats: Stat[] = [
 export const credentials: Credential[] = [
   { mark: 'KAN', name: 'Komite Akreditasi Nasional', full: 'Komite Akreditasi Nasional', logo: logos.kan },
   { mark: 'ASITA', name: 'Tour & Travel Agencies', full: 'Association of the Indonesian Tours and Travel Agencies', logo: logos.asita },
-  { mark: 'KESTHURI', name: 'Tour Travel Haji Umrah RI', full: 'Kesatuan Tour Travel Haji Umrah Republik Indonesia' },
+  { mark: 'KESTHURI', name: 'Tour Travel Haji Umrah RI', full: 'Kesatuan Tour Travel Haji Umrah Republik Indonesia', logo: logos.kesthuri },
   { mark: '5 PASTI', name: 'Program 5 Pasti Umroh', full: 'Kementerian Agama Republik Indonesia — Program 5 Pasti Umroh', logo: logos.kemenag },
 ]
 
@@ -75,11 +76,11 @@ export const offices: Office[] = [
 ]
 
 export const partners: Partner[] = [
-  { mark: 'BI', name: 'Masjid Baitul Ihsan', org: 'Bank Indonesia', logo: logos.bankIndonesia },
-  { mark: 'SKI', name: 'Sarana Kerohanian Islam', org: 'Indosat Ooredoo Hutchison', logo: logos.indosat },
-  { mark: 'BH', name: 'Yayasan Baitul Hikmah', org: 'Elnusa', logo: logos.elnusa },
-  { mark: 'AR', name: 'Masjid Ar-Raqib', org: 'BPKP', logo: logos.bpkp },
-  { mark: 'AK', name: 'Ponpes Terpadu Al-Kahfi', org: 'Lembaga Pendidikan', logo: logos.alKahfi },
+  { mark: 'BI', name: 'Masjid Baitul Ihsan', org: 'Bank Indonesia', logo: logos.bankIndonesia, class: "w-18" },
+  { mark: 'SKI', name: 'Sarana Kerohanian Islam', org: 'Indosat Ooredoo Hutchison', logo: logos.indosat, class: "w-40" },
+  { mark: 'BH', name: 'Yayasan Baitul Hikmah', org: 'Elnusa', logo: logos.elnusa, class: "w-20" },
+  { mark: 'AR', name: 'Masjid Ar-Raqib', org: 'BPKP', logo: logos.bpkp, class: "w-24" },
+  { mark: 'AK', name: 'Ponpes Terpadu Al-Kahfi', org: 'Lembaga Pendidikan', logo: logos.alKahfi, class: "w-40" },
 ]
 
 export const contacts: Contact[] = [
