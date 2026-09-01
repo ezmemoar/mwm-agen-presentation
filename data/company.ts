@@ -47,7 +47,7 @@ export const stats: Stat[] = [
   { value: 12, label: 'Tahun melayani perjalanan ibadah' },
   { value: 20000, suffix: '+', label: 'Jemaah telah diberangkatkan' },
   { value: 1000, suffix: '+', label: 'Jemaah diberangkatkan sepanjang 2025' },
-  { value: 2, label: 'Kantor cabang aktif' },
+  { value: 4, label: 'Kantor cabang aktif' },
 ]
 
 export const credentials: Credential[] = [
