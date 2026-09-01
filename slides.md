@@ -78,9 +78,13 @@ src: ./pages/07-paket-barokah-9-waris.md
 ---
 
 ---
-src: ./pages/08-kemitraan-agen.md
+src: ./pages/08-paket-itikaf-ramadhan.md
 ---
 
 ---
-src: ./pages/09-penutup.md
+src: ./pages/09-kemitraan-agen.md
+---
+
+---
+src: ./pages/10-penutup.md
 ---

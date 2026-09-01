@@ -106,6 +106,23 @@ export const packages: UmrohPackage[] = [
       { icon: 'i-heroicons-book-open', text: 'Kajian Ilmu Waris bersama Ustadz Dr. Marullah Marzuq, M.Ag., LLM, Hafidzahullah' },
     ],
   },
+  {
+    id: 'itikaf-ramadhan',
+    badge: 'Paket 04',
+    title: 'Umroh I\'tikaf Ramadhan 1448H',
+    lead: 'Beri\'tikaf di sepuluh malam terakhir Ramadhan, langsung dari Jakarta ke Tanah Suci.',
+    price: 'Rp46,7 Juta',
+    duration: '17 Hari',
+    airline: { name: 'Garuda Indonesia', icon: 'i-heroicons-paper-airplane', note: 'Direct flight' },
+    hotelMakkah: { name: 'Makka Ajyad', grade: 'Setaraf bintang 3' },
+    hotelMadinah: { name: 'Golden Manazel Al Falah', grade: 'Setaraf bintang 4' },
+    brochure: brochures.itikafRamadhan,
+    brochureAlt: 'Brosur Umroh I\'tikaf Ramadhan 1448H',
+    departures: ['22 Feb – 10 Mar 2027'],
+    includes: [
+      { icon: 'i-heroicons-gift', text: 'Bonus koper bagasi dan koper kabin' },
+    ],
+  },
 ]
 
 /** The same four facts, in the same order, on every package slide. */

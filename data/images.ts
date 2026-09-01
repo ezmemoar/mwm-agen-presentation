@@ -46,4 +46,5 @@ export const brochures = {
   barokah9: `${brochureBase}/9a3c514cdc8ff58b7eb6ace6f06f0eae14a063a9f844be98f7173f42e019c121.jpg`,
   umroh13: `${brochureBase}/46d0515ac03acf594c58ce02e80181f02c0dbb5b56a664c54ec0206e45a807ec.jpg`,
   barokah9Waris: `${brochureBase}/b57f2232ce0ab6dee365f055cae9757fe6ddf5f8e893074a701b2ebe4649dc62.jpg`,
+  itikafRamadhan: `${brochureBase}/9268aaa89017f7c70dd07beab9d16bdf8d6479626b1cf0c4fe50b03f58072d93.jpg`,
 } as const
