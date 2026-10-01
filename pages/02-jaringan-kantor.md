@@ -8,6 +8,6 @@ photoAlt: Masjid Nabawi, Madinah
 import { offices } from '../data/company'
 </script>
 
-<SlideHeading eyebrow="Jaringan Kantor" title="Selalu Dekat, di Setiap Kota" subtitle="Dua kantor kami siap membantu jemaah dan mitra agen berkonsultasi langsung — tatap muka, bukan hanya lewat pesan." index="02" class="mb-11" />
+<SlideHeading eyebrow="Jaringan Kantor" title="Selalu Dekat, di Setiap Kota" subtitle="Kami siap membantu jemaah dan mitra agen untuk berkonsultasi langsung dari berbagai daerah." index="02" class="mb-11" />
 
 <OfficeRail :offices="offices" />

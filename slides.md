@@ -41,12 +41,8 @@ hint: true
 </h1>
 
 <p v-reveal="2" class="max-w-[36ch] text-[1.05rem] leading-relaxed text-white/75">
-  Mitra ibadah Anda menuju Baitullah — **melayani** perjalanan umroh dan haji plus
-  dengan sepenuh hati, sejak <span class="font-semibold text-gold-200">12 tahun</span> lalu.
-</p>
-
-<p v-reveal="3" class="eyebrow mt-1 text-white/75">
-  Disusun untuk calon mitra agen di seluruh Indonesia
+  Mitra ibadah Anda menuju Baitullah. Melayani perjalanan umroh dan haji plus
+  dengan sepenuh hati.
 </p>
 
 ---
